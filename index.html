@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://gopal-nandi.github.io/live-news/assets/News%20(1).png" />
+    <meta name="description"
+        content="Stay updated with the latest news from around the world. Our news website delivers timely, accurate, and in-depth coverage on top stories, breaking news, politics, entertainment, sports, and more. Explore diverse perspectives and stay informed with our reliable news coverage.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Gopal Nandi">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Chrono Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="">
+            <div class="main-nav flex">
+                <a href="#" class="company-logo flex" onclick="onNavItemClick('india')">
+                    <img src="assets/newslogo2.png" alt="news logo">
+                </a>
+
+                <div class="nav-links">
+                    <ul class="flex">
+                        <li class="hover-link nav-item" id="business" onclick="onNavItemClick('business')">Business</li>
+                        <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                        <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</li>
+                        <li class="hover-link nav-item" id="technology" onclick="onNavItemClick('technology')">
+                            Technology</li>
+                    </ul>
+                </div>
+
+                <div class="search-bar flex">
+                    <input type="text" class="search-input" id="search-input" placeholder="eg. Science">
+                    <button class="search-btn" id="search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="card-container flex container" id="card-container">
+
+
+        </div>
+    </main>
+
+    <template id="news-card-template">
+        <div class="card">
+            <div class="card-header">
+                <img src="http://via.placeholder.com/400x200" alt="News Image" id="news-img">
+                <div class="news-source" id="news-source">
+                    <h6>Source, dd/mm/yyyy</h6>
+                </div>
+            </div>
+
+            <div class="card-content">
+                <h3 class="news-title" id="news-title">News Title</h3>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae itaque esse mollitia, unde
+                    sint laboriosam alias officiis blanditiis quibusdam placeat!</p>
+            </div>
+        </div>
+    </template>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
