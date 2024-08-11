@@ -27,4 +27,4 @@ A simple and responsive news website built with HTML, CSS, and JavaScript. This 
 
 ---
 
-“Happy coding! Stay updated, stay informed!”
+“Happy Coding! Stay updated, stay informed!”
