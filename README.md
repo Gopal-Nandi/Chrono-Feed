@@ -23,7 +23,7 @@ A simple and responsive news website built with HTML, CSS, and JavaScript. This 
 - **Search News**: Use the search bar to find news articles by entering keywords.
 - **Filter by Categories**: Use the category filters to view specific types of news.
 
-#### Click the link to view the website: -https://gopal-nandi.github.io/Live_Streaming_News/
+#### Click the link to view the website: -https://gopal-nandi.github.io/Chrono-Feed/
 
 ---
 
