@@ -25,7 +25,8 @@ A simple and responsive news website built with HTML, CSS, and JavaScript. This 
 
 ### Screenshots
 
-![Chrono](https://github.com/user-attachments/assets/33a8571f-d7ea-47bd-8d3a-55253b51bd6f)
+![Chrono Feed_Screenshot1](https://github.com/user-attachments/assets/33a8571f-d7ea-47bd-8d3a-55253b51bd6f)
+**Home Page**
 
 ---
 
