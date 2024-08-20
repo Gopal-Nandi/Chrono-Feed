@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://gopal-nandi.github.io/live-news/assets/News%20(1).png" />
+    <meta property="og:image" content="https://gopal-nandi.github.io/Chrono-Feed/assets/newslogo3.png" />
     <meta name="description"
         content="Stay updated with the latest news from around the world. Our news website delivers timely, accurate, and in-depth coverage on top stories, breaking news, politics, entertainment, sports, and more. Explore diverse perspectives and stay informed with our reliable news coverage.">
     <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <title>Chrono Feed</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
 </head>
 
 <body>
@@ -19,11 +20,11 @@
     <nav>
         <div class="">
             <div class="main-nav flex">
-                <a href="#" class="company-logo flex" onclick="onNavItemClick('india')">
-                    <img src="assets/newslogo2.png" alt="news logo">
+                <a href="#" class="company-logo flex" onclick="reload()">
+                    <img src="assets/newslogo2.png" alt="news logo" id="news-logo">
                 </a>
 
-                <div class="nav-links">
+                <div class="nav-links" id="nav-links">
                     <ul class="flex">
                         <li class="hover-link nav-item" id="business" onclick="onNavItemClick('business')">Business</li>
                         <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
@@ -33,10 +34,13 @@
                     </ul>
                 </div>
 
-                <div class="search-bar flex">
+                <div class="search-bar flex" id="search-bar">
                     <input type="text" class="search-input" id="search-input" placeholder="eg. Science">
                     <button class="search-btn" id="search-btn">Search</button>
                 </div>
+
+                <a href="#" class="menu-btn" id="menu-btn"><i class="fa-duotone fa-solid fa-bars" id="menu-icon"></i></a>
+                
             </div>
         </div>
     </nav>
@@ -48,6 +52,11 @@
 
         </div>
     </main>
+    
+
+    <button class="top" id="jet"><i class="fa-sharp fa-solid fa-jet-fighter-up" id="jet-icon"></i></button>
+    <button class="dark-mode" id="dark-mode"><i class="fa-sharp fa-solid fa-cloud-moon" id="dark-mode-icon"></i></button>
+
 
     <template id="news-card-template">
         <div class="card">
@@ -69,6 +78,7 @@
 
 
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bec7640ec7.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
