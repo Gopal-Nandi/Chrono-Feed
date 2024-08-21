@@ -8,6 +8,7 @@ A simple and responsive news website built with HTML, CSS, and JavaScript. This 
 - **Responsive Design**: Adapts to different screen sizes and devices.
 - **User-Friendly Interface**: Presents news articles in an organized and accessible manner.
 - **Search Functionality**: Allows users to search for news articles by keywords.
+- **Night Mode**: Improve user experience with a dark theme option.Allows toggling between light and dark themes for better readability in low-light conditions.
 - **Categorized Content**: Allows users to filter news by categories.
 
 ### Technologies Used
@@ -23,11 +24,13 @@ A simple and responsive news website built with HTML, CSS, and JavaScript. This 
 - **Search News**: Use the search bar to find news articles by entering keywords.
 - **Filter by Categories**: Use the category filters to view specific types of news.
 
+### Demonstration Video
+
+- **Desktop View**: [Click here](https://drive.google.com/file/d/1GFNy6F9THpbVn21We9mHgf9rAfMuUvlN/view?usp=sharing)
+- **Mobile View**: [Click here](https://drive.google.com/file/d/1UKglIP_RY2xJJDXBazw95w5zNw5Tc5Zu/view?usp=sharing)
+
+
 ### Screenshots
-
-
-https://github.com/user-attachments/assets/02f8e6f3-1b39-488d-8daf-ecc406dd2bd9
-
 
 ![Chrono_Feed_Screenshot](https://github.com/user-attachments/assets/2fa11095-245a-4f09-b202-1e4753ac1902)
 <h4 align="center">Home Page</h4>
