@@ -28,6 +28,18 @@ A simple and responsive news website built with HTML, CSS, and JavaScript. This 
 ![Chrono_Feed_Screenshot](https://github.com/user-attachments/assets/2fa11095-245a-4f09-b202-1e4753ac1902)
 <h4 align="center">Home Page</h4>
 
+![Chrono_Feed_Screenshot2](https://github.com/user-attachments/assets/78c48f73-7723-4729-ad7d-338c6c8d47f6)
+<h4 align="center">Nav Items</h4>
+
+![Chrono_Feed_Night_Mode_Screenshot](https://github.com/user-attachments/assets/290c509d-28ca-43a4-9f73-f90229513e07)
+<h4 align="center">Night Mode</h4>
+
+![Chrono_Feed_Mobile_Screenshot](https://github.com/user-attachments/assets/e83f942e-b424-4c25-9272-52997d5f31ba)
+<h4 align="center">Mobile View</h4>
+
+![Chrono_Feed_Mobile_Dark_Mode_Screenshot](https://github.com/user-attachments/assets/460f456d-bd3f-4d46-82ad-41524c8bcf14)
+<h4 align="center">Mobile View Night Mode</h4>
+
 ---
 
 “Happy Coding! Stay updated, stay informed!”
